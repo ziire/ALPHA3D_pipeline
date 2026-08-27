@@ -21,7 +21,7 @@ __Files__
 
 _data –_ in this folder there are the landmarks used in the scripts for the analyses.
 
-_scripts –_ this folder contains the scripts used in the analyses. All scripts are commented to be able to reproduce the results from the article.
+_scripts –_ this folder contains the scripts used in the analyses. All scripts are commented for reproducibility purposes.
 <ul>
   <li>1_imprecision_log.R runs imprecision (as variance) analysis for the automated pipeline.</li>
   <li>2_bias_log.R runs bias analyses.</li>
