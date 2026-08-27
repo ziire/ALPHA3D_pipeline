@@ -29,7 +29,7 @@ _scripts –_ this folder contains the scripts used in the analyses. All scripts
   <li>4_inaccuracy_log.R runs inaccuracy analysis (precision plus bias squared) .</li>
   <li>5_cov_matrix_log.R creates phenotypic variance-covariance matrices (P-matrices).</li>
   <li>6_RS_analysis_log.R runs quantitative genetics analyses (Random Skewers).</li>
-  <li>7_CS_ANOVA_log.R calculates centroid sizes (CS) and runs nested ANOVAS and Procrustes ANOVA.</li>
+  <li>7_CS_ANOVA_log.R calculates centroid sizes (CS) and runs nested and Procrustes ANOVAs.</li>
   <li>8_meshdist.R runs the meshdist analysis.</li>
   <li>9_Procrustes_ML.R runs Procrustes ANOVA on manual landmarks only.</li>
   <li>create_lists_and_dataframe.R create lists and dataframe used in the above scripts</li>
