@@ -23,12 +23,20 @@ _data –_ in this folder there are the landmarks used in the scripts for the an
 
 _scripts –_ this folder contains the scripts used in the analyses. All scripts are commented to be able to reproduce the results from the article.
 <ul>
-  <li>single_mode.R runs the analyses for the single-mode models section of the article.</li>
-  <li>stats_single_mode.R runs regression analyses and plotting on the single-mode data generated in single_mode.R.</li>
-  <li>mode_shift.R runs the analyses pluss summary statistics for the mode-shift models section of the article.</li>
-  <li>stats_mode_shift.R runs regression analyses and plotting on the mode-shift data generated in mode_shift.R.</li>
-  <li>shift_OU_adequacy.R is a script run on a HPC cluster for the OU part of adequacy testing in the mode-shift part of the article.</li>
-  <li>delta_aicc_gap.R runs analyses and plotting for the delta AICc gap part of the article.</li>
-  <li>functions.R contains R functions loaded in all the above scripts.</li>
+  <li>1_imprecision_log.R runs imprecision analysis for the automated pipeline.</li>
+  <li>2_bias_log.R runs bias analyses (difference in performance between automated and manual landmarking) .</li>
+  <li>3_variance_ML_vs_AL_ log.R runs imprecision between automated and manual landmarking.</li>
+  <li>4_inaccuracy_log.R runs inaccuracy analysis (precision plus bias squared) .</li>
+  <li>5_cov_matrix_log.R creates phenotypic variance-covariance matrices (P-matrices).</li>
+  <li>6_RS_analysis_log.R runs quantitative genetics analyses (Random Skewers).</li>
+  <li>7_CS_ANOVA_log.R calculates centroid sizes (CS) and runs nested ANOVAS and Procrustes ANOVA.</li>
+  <li>8_meshdist.R runs the analyses.</li>
+  <li>9_Procrustes_ML.R runs Procrustes ANOVA on manual landmarks only.</li>
+  <li>create_lists_and_dataframe.R runs the analyses.</li>
+  <li>functions_accuracy.R contains R functions loaded in all the scripts.</li>
+  <li>imprecision_2nd_part_pipeline.R runs the analyses.</li>
+  <li>landmarks_traits.R runs the analyses.</li>
+  <li>libraries.R runs the analyses.</li>
+  <li>list_nested_anova.R runs the analyses.</li>
 </ul>
 
