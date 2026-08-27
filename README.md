@@ -24,7 +24,7 @@ _data –_ in this folder there are the landmarks used in the scripts for the an
 _scripts –_ this folder contains the scripts used in the analyses. All scripts are commented to be able to reproduce the results from the article.
 <ul>
   <li>1_imprecision_log.R runs imprecision (as variance) analysis for the automated pipeline.</li>
-  <li>2_bias_log.R runs bias analyses (difference in performance between automated and manual landmarking) .</li>
+  <li>2_bias_log.R runs bias analyses.</li>
   <li>3_variance_ML_vs_AL_ log.R runs imprecision (as variance) between automated and manual landmarking.</li>
   <li>4_inaccuracy_log.R runs inaccuracy analysis (precision plus bias squared) .</li>
   <li>5_cov_matrix_log.R creates phenotypic variance-covariance matrices (P-matrices).</li>
