@@ -23,20 +23,20 @@ _data –_ in this folder there are the landmarks used in the scripts for the an
 
 _scripts –_ this folder contains the scripts used in the analyses. All scripts are commented to be able to reproduce the results from the article.
 <ul>
-  <li>1_imprecision_log.R runs imprecision analysis for the automated pipeline.</li>
+  <li>1_imprecision_log.R runs imprecision (as variance) analysis for the automated pipeline.</li>
   <li>2_bias_log.R runs bias analyses (difference in performance between automated and manual landmarking) .</li>
-  <li>3_variance_ML_vs_AL_ log.R runs imprecision between automated and manual landmarking.</li>
+  <li>3_variance_ML_vs_AL_ log.R runs imprecision (as variance) between automated and manual landmarking.</li>
   <li>4_inaccuracy_log.R runs inaccuracy analysis (precision plus bias squared) .</li>
   <li>5_cov_matrix_log.R creates phenotypic variance-covariance matrices (P-matrices).</li>
   <li>6_RS_analysis_log.R runs quantitative genetics analyses (Random Skewers).</li>
   <li>7_CS_ANOVA_log.R calculates centroid sizes (CS) and runs nested ANOVAS and Procrustes ANOVA.</li>
-  <li>8_meshdist.R runs the analyses.</li>
+  <li>8_meshdist.R runs the meshdist analysis.</li>
   <li>9_Procrustes_ML.R runs Procrustes ANOVA on manual landmarks only.</li>
-  <li>create_lists_and_dataframe.R runs the analyses.</li>
+  <li>create_lists_and_dataframe.R create lists and dataframe used in the above scripts</li>
   <li>functions_accuracy.R contains R functions loaded in all the scripts.</li>
   <li>imprecision_2nd_part_pipeline.R runs the analyses.</li>
-  <li>landmarks_traits.R runs the analyses.</li>
-  <li>libraries.R runs the analyses.</li>
-  <li>list_nested_anova.R runs the analyses.</li>
+  <li>landmarks_traits.R specifies the name of traits used in the above scripts.</li>
+  <li>libraries.R contains the libraries used in all the scripts.</li>
+  <li>list_nested_anova.R specifies the name of traits used in the ANOVA analyses.</li>
 </ul>
 
